@@ -18,26 +18,99 @@ This code is an HTML document that represents a survey form. Here's a summary of
   <li>At the end of the HTML document, there is a script section that includes a function to update the input field based on the selected option from the dropdown select element.</li>
 </ul>
 
-<h1 style="text-decoration: underline;">Styles.css</h1>
-This code is a CSS stylesheet that provides styling for an HTML document. Here's a summary of its styles and selectors:
+<h1 style="text-decoration: underline;">Index.html</h1>
+
+This CSS code provides styling rules for various elements of a webpage. Here's a summary of the styles defined in the code:
 
 <ul>
-  <li>The <code>@import</code> rule is used to import the "Poppins" font from Google Fonts.</li>
-  <li>The <code>:root</code> selector sets global CSS variables for colors used in the document.</li>
-  <li>A global CSS reset is applied to all elements using the <code>*</code> selector and the <code>box-sizing</code> property.</li>
-  <li>The <code>body</code> selector styles the overall appearance of the document, including font family, size, weight, color, and background.</li>
-  <li>A pseudo-element <code>::before</code> is used to create a fixed background image with a gradient overlay for the entire body.</li>
-  <li>The <code>h1</code> and <code>p</code> selectors set styles for headings and paragraphs, including font weight, size, and margins.</li>
-  <li>The <code>label</code> selector styles labels for form elements, including display, alignment, and font size.</li>
-  <li>The <code>button</code>, <code>select</code>, and <code>textarea</code> selectors style form elements.</li>
-  <li>The <code>.container</code> selector sets the maximum width and margins for a container element, with different styles applied for different screen sizes using media queries.</li>
-  <li>The <code>.header</code> selector styles the header section of the form, including padding and margin.</li>
-  <li>The <code>.description</code> and <code>.clue</code> selectors style descriptive text and hints within the form.</li>
-  <li>The <code>.text-center</code> selector aligns text in the center.</li>
-  <li>The <code>form</code> selector styles the form itself, including background, padding, and border radius.</li>
-  <li>The <code>.form-group</code> selector sets margins and padding for form groups.</li>
-  <li>The <code>.form-control</code> selector styles form controls, including width, height, padding, colors, and border.</li>
-  <li>The <code>.form-control:focus</code> selector styles the form controls when they are in focus.</li>
-  <li>The <code>.submit-button</code> selector styles the submit button, including display, width, padding, background, color, border-radius, and cursor.</li>
-  <li>The <code>.radio-group</code> selector styles a group of radio buttons, including display, flex-direction, alignment, and margin.</li>
-</ul>
+  <li>The <code>body</code> element has the following styles:
+    <ul>
+      <li>The font family used for the text within the <code>&lt;body&gt;</code> element is set to 'Poppins', sans-serif.</li>
+      <li>The font size is set to 1rem.</li>
+      <li>The font weight is set to 400.</li>
+      <li>The line height is set to 1.4.</li>
+      <li>The text color is set to var(--color-white).</li>
+      <li>The margin is set to 0.</li>
+    </ul>
+  </li>
+  <li>The <code>body::before</code> pseudo-element is used to create a mobile-friendly background effect. It has the following styles:
+    <ul>
+      <li>The content property is set to an empty string to create the pseudo-element.</li>
+      <li>The position is fixed to ensure the pseudo-element covers the entire viewport.</li>
+      <li>The top, left, height, and width properties are set to 0 to cover the entire viewport.</li>
+      <li>The z-index is set to -1 to place the pseudo-element behind other elements.</li>
+      <li>The background is set to var(--color-darkblue) with a linear gradient background image on top.</li>
+      <li>The background image is a combination of two gradients and an image from the URL "https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg".</li>
+      <li>The background size is set to cover to ensure the background image covers the entire pseudo-element.</li>
+      <li>The background repeat is set to no-repeat to prevent the background image from repeating.</li>
+      <li>The background position is set to center to position the background image at the center of the pseudo-element.</li>
+    </ul>
+  </li>
+  <li>The <code>h1</code> element has the following styles:
+    <ul>
+      <li>The font weight is set to 400.</li>
+      <li>The line height is set to 1.2.</li>
+    </ul>
+  </li>
+  <li>The <code>p</code> element has the following style:
+    <ul>
+      <li>The font size is set to 1.125rem.</li>
+    </ul>
+  </li>
+  <li>The <code>h1</code> and <code>p</code> elements share the following styles:
+    <ul>
+      <li>The top margin is set to 0 to remove any default spacing.</li>
+      <li>The bottom margin is set to 0.5rem.</li>
+    </ul>
+  </li>
+  <li>The <code>label</code> element has the following styles:
+    <ul>
+      <li>The display is set to flex to create a flex container.</li>
+      <li>The align-items is set to center to vertically align the contents of the label.</li>
+      <li>The font size is set to 1.125rem.</li>
+      <li>The bottom margin is set to 0.5rem.</li>
+    </ul>
+  </li>
+  <li>The <code>button</code>, <code>select</code>, and <code>textarea</code> elements have the following styles:
+    <ul>
+      <li>The margin is set to auto to horizontally center the elements within their containers.</li>
+      <li>The font family, font size, line height, and font weight are inherited from their parent elements.</li>
+    </ul>
+  </li>
+  <li>The <code>button</code> element has the following style:
+    <ul>
+      <li>The border is set to none to remove the default border.</li>
+    </ul>
+  </li>
+  <li>The <code>.container</code> class has the following styles:
+    <ul>
+      <li>The width is set to 100% to occupy the entire width of its containing element.</li>
+      <li>The margin is set to auto to horizontally center the container.</li>
+      <li>There are media queries to adjust the max-width of the container at different breakpoints.</li>
+    </ul>
+  </li>
+  <li>The <code>.header</code> class has the following styles:
+    <ul>
+      <li>The padding is set to 0 0.625rem.</li>
+      <li>The margin bottom is set to 1.875rem.</li>
+    </ul>
+  </li>
+  <li>The <code>.description</code> class has the following styles:
+    <ul>
+      <li>The font style is set to italic.</li>
+      <li>The font weight is set to 200.</li>
+      <li>The text shadow is applied to create a shadow effect on the text.</li>
+    </ul>
+  </li>
+  <li>The <code>.clue</code> class has the following styles:
+    <ul>
+      <li>The left margin is set to 0.25rem.</li>
+      <li>The font size is set to 0.9rem.</li>
+      <li>The color is set to #e4e4e4.</li>
+    </ul>
+  </li>
+  <li>The <code>.text-center</code> class has the following style:
+    <ul>
+      <li>The text alignment is set to center.</li>
+    </ul>
+  </li>
