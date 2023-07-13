@@ -19,7 +19,7 @@ This code is an HTML document that represents the structure of a cafe menu webpa
 </ul>
 
   
-  <h1 style="text-decoration: underline;">styles.css</h1>
+  <h1 style="text-decoration: underline;">Styles.css</h1>
   <ul>
     <li>
       <strong>body:</strong> 
