@@ -18,7 +18,7 @@ This code is an HTML document that represents a survey form. Here's a summary of
   <li>At the end of the HTML document, there is a script section that includes a function to update the input field based on the selected option from the dropdown select element.</li>
 </ul>
 
-<h1 style="text-decoration: underline;">Index.html</h1>
+<h1 style="text-decoration: underline;">Styles.css</h1>
 
 This CSS code provides styling rules for various elements of a webpage. Here's a summary of the styles defined in the code:
 
