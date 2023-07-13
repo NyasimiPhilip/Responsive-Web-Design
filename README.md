@@ -4,5 +4,5 @@
   <li>Build a simple webpages to grasp the basics of HTML and CSS.</li>
   <li>Explore advanced techniques like CSS variables</li>
   <li>Emphasize accessibility best practices.</li>
-  <li>Master responsive web design by building with CSS Grid.</li>
+  <li>Master responsive web design </li>
 </ul>
