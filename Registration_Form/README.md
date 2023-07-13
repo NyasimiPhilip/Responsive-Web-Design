@@ -19,7 +19,7 @@ This code is an HTML document that represents the structure of a cafe menu webpa
   <li>At the end of the content, there is another horizontal line &lt;hr class="bottom-line"&gt; and a &lt;footer&gt; section.</li>
   <li>The &lt;footer&gt; contains a link to the cafe's website and an address displayed using &lt;p&gt; elements.</li>
 </ul>
-<h1 style="text-decoration: underline;">Index.html</h1>
+<h1 style="text-decoration: underline;">Styles.css</h1>
 
 This code is a CSS stylesheet that applies styles to an HTML document representing the structure of a cafe menu webpage. Here's a summary of the styles applied:
 
