@@ -2,8 +2,8 @@
 This code is an HTML document that represents the structure of a cafe menu webpage. Here's a summary of its structure and elements:
 <ul>
 <li>The code begins with the HTML doctype declaration.</li>
-<li>Inside the html tag, the language attribute is set to "en" for English.</li>
-<li>The %lt;head&gt; section contains metadata and the title of the webpage.</li>
+<li>Inside the &lt;html&gt; tag, the language attribute is set to "en" for English.</li>
+<li>The &lt;head&gt; section contains metadata and the title of the webpage.</li>
 <li>The stylesheet "styles.css" is linked to the HTML file.</li>
 <li>The &lt;body&gt; section is the main content of the webpage.</li>
 <li>The content is wrapped in a div element with the class "menu".</li>
