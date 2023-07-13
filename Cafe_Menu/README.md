@@ -2,7 +2,7 @@
 This code is an HTML document that represents the structure of a cafe menu webpage. Here's a summary of its structure and elements:
 <ul>
 <li>The code begins with the HTML doctype declaration.</li>
-<li>Inside the &lt;html&gt; tag, the language attribute is set to "en" for English.</li>
+<li>Inside the html tag, the language attribute is set to "en" for English.</li>
 <li>The %lt;head&gt; section contains metadata and the title of the webpage.</li>
 <li>The stylesheet "styles.css" is linked to the HTML file.</li>
 <li>The &lt;body&gt; section is the main content of the webpage.</li>
@@ -16,9 +16,7 @@ This code is an HTML document that represents the structure of a cafe menu webpa
 <li>Each menu item has a name displayed using &lt;p &gt;elements with specific classes (e.g., "flavor", "price").</li>
 <li>At the end of the content, there is another horizontal line &lt;hr class="bottom-line"&gt; and a &lt;footer&gt; section.</li>
 <li>The footer contains a link to the cafe's website and an address displayed using &lt;p&gt; elements.</li>
-</ul>
-
-  
+</ul>  
  
 <h1 style="text-decoration: underline;">Styles.css</h1>
 This CSS code provides styling rules for various elements of a webpage. Here's a summary of the styles defined in the code:
