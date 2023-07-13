@@ -20,7 +20,7 @@ This code is an HTML document that represents the structure of a cafe menu webpa
 
   
  
-<h1 style="text-decoration: underline;">Index.html</h1>
+<h1 style="text-decoration: underline;">Styles.css</h1>
 This CSS code provides styling rules for various elements of a webpage. Here's a summary of the styles defined in the code:
 
 <ul>
