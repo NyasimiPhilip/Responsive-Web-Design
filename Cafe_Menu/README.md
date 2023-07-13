@@ -1,4 +1,4 @@
-<h1 style="text-decoration: underline;> Index.html</h1>
+<h1 style="text-decoration: underline;"> Index.html</h1>
 This code is an HTML document that represents the structure of a cafe menu webpage. Here's a summary of its structure and elements:
 <ul>
 <li>The code begins with the HTML doctype declaration.</li>
