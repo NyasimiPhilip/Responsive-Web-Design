@@ -3,11 +3,11 @@ This code is an HTML document that represents the structure of a cafe menu webpa
 <ul>
 <li>The code begins with the HTML doctype declaration.</li>
 <li>Inside the <html> tag, the language attribute is set to "en" for English.</li>
-<li>The <head> section contains metadata and the title of the webpage.</li>
+<li>The (head) section contains metadata and the title of the webpage.</li>
 <li>The stylesheet "styles.css" is linked to the HTML file.</li>
-<li>The <body> section is the main content of the webpage.</li>
-<li>The content is wrapped in a <div> element with the class "menu".</li>
-<li>Inside the <div class="menu">, there is a <main> element.</li>
+<li>The (body) section is the main content of the webpage.</li>
+<li>The content is wrapped in a div element with the class "menu".</li>
+<li>Inside the (div class="menu"), there is a <main> element.</li>
 <li>The <main> element contains the main content of the webpage.</li>
 <li>The cafe name and establishment date are displayed using <h1> and <p> elements.</li>
 <li>A horizontal line is displayed using the <hr> element.</li>
