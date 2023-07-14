@@ -1,17 +1,18 @@
-  <h1>Explanation - HTML Code</h1>
+ <h1>Explanation - HTML Code</h1>
   <ul>
     <li>The code begins with the HTML doctype declaration.</li>
     <li>Inside the <code>&lt;html&gt;</code> tag, there is a <code>&lt;body&gt;</code> element that contains the main content of the webpage.</li>
-    <li>Within the <code>&lt;body&gt;</code> element, there is a <code>&lt;main&gt;</code> element that wraps the form.</li>
-    <li>Inside the <code>&lt;main&gt;</code> element, there is a <code>&lt;head&gt;</code> element that contains the title of the survey form and a link to an external CSS file named "styles.css".</li>
-    <li>There is an introductory paragraph describing the purpose of the form.</li>
-    <li>The survey form is wrapped in a <code>&lt;form&gt;</code> element with the ID "survey-form".</li>
-    <li>The form is divided into fieldsets to group related form controls.</li>
-    <li>The fieldset for personal information has a legend with the text "Personal Information" and contains several <code>&lt;label&gt;</code> and <code>&lt;input&gt;</code> elements for collecting name, email, age, and role information.</li>
-    <li>The role input consists of a text input field and a dropdown select element. When a value is selected from the dropdown, it automatically populates the text input and disables it.</li>
-    <li>There is a fieldset for the recommendation question, which includes three radio buttons and labels.</li>
-    <li>There is a fieldset for improvement suggestions, which includes checkboxes for different project categories. The checkboxes are dynamically generated using JavaScript based on the categories array.</li>
-    <li>There is a textarea for users to provide additional comments or suggestions.</li>
-    <li>Finally, there is a submit button to submit the form.</li>
-    <li>At the end of the HTML document, there is a script section that includes a function to update the input field based on the selected option from the dropdown select element.</li>
+    <li>The <code>&lt;head&gt;</code> element contains metadata information such as the character encoding (<code>&lt;meta charset="UTF-8"&gt;</code>) and the title of the webpage (<code>&lt;title&gt;CatPhotoApp&lt;/title&gt;</code>).</li>
+    <li>Inside the <code>&lt;body&gt;</code> element, there is a <code>&lt;main&gt;</code> element that wraps the main content of the webpage.</li>
+    <li>Within the <code>&lt;main&gt;</code> element, there are multiple <code>&lt;section&gt;</code> elements that represent different sections of the webpage.</li>
+    <li>Each section has a heading element (<code>&lt;h2&gt;</code> and <code>&lt;h3&gt;</code>) to indicate the section title.</li>
+    <li>The first section contains a paragraph and an image wrapped in an anchor element.</li>
+    <li>The second section contains two lists: an unordered list (<code>&lt;ul&gt;</code>) and an ordered list (<code>&lt;ol&gt;</code>).</li>
+    <li>Inside each list, there are list items (<code>&lt;li&gt;</code>) representing items that cats love and hate.</li>
+    <li>Each list item may contain additional elements such as images and captions wrapped in <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> elements.</li>
+    <li>The third section contains a form (<code>&lt;form&gt;</code>) for submitting cat photos.</li>
+    <li>The form contains two fieldsets with legends, representing questions about the cat's indoor/outdoor status and personality.</li>
+    <li>Each fieldset contains input elements such as radio buttons (<code>&lt;input type="radio"&gt;</code>) and checkboxes (<code>&lt;input type="checkbox"&gt;</code>).</li>
+    <li>There is also a text input field (<code>&lt;input type="text"&gt;</code>) for entering a cat photo URL, and a submit button (<code>&lt;button type="submit"&gt;</code>) to submit the form.</li>
+    <li>The webpage ends with a <code>&lt;footer&gt;</code> element containing a paragraph and a link.</li>
   </ul>
