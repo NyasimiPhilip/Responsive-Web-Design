@@ -13,12 +13,9 @@
     </ul>
   </li>
 </ul>
-The provided HTML code creates a simple webpage for displaying colored markers using CSS classes. The markers are represented by nested <div> elements, with each marker having a different color class ("red," "green," and "blue"). The appearance and positioning of these markers are likely defined in the linked "styles.css" file. The webpage contains a main heading, "CSS Color Markers," and the markers are wrapped within a container for better organization and styling.
+The provided HTML code creates a simple webpage for displaying colored markers using CSS classes. The markers are represented by nested <div> elements, with each marker having a different color class ("red," "green," and "blue"). The appearance and positioning of these markers are defined in the linked "styles.css" file. The webpage contains a main heading, "CSS Color Markers," and the markers are wrapped within a container for better organization and styling.
 
-<ul>
-  <li>
-    <h1>Explanation - CSS Code:</h1>
-  </li>
+<h1>Explanation - CSS Code:</h1>
   <li>
     <p>The CSS code starts with a rule targeting the <code>&lt;h1&gt;</code> element and sets its text alignment to center. This will center-align the text inside all <code>&lt;h1&gt;</code> headings on the webpage.</p>
   </li>
