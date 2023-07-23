@@ -1,22 +1,36 @@
-The code begins with the HTML doctype declaration, indicating that it is an HTML5 document.
+<h1>Explanation - HTML Code</h1>
+<ul>
+  <li>The code begins with the HTML doctype declaration, indicating that it is an HTML5 document.</li>
+  <li>Inside the <code>&lt;html&gt;</code> tag, there is a <code>&lt;body&gt;</code> element that contains the main content of the webpage.</li>
+  <li>The <code>&lt;head&gt;</code> element contains metadata information, such as the character encoding (<code>&lt;meta charset="UTF-8"&gt;</code>) and the title of the webpage (<code>&lt;title&gt;Colored Markers&lt;/title&gt;</code>).</li>
+  <li>Inside the <code>&lt;body&gt;</code> element, there is an <code>&lt;h1&gt;</code> heading element with the text "CSS Color Markers." This represents the main heading of the webpage.</li>
+  <li>The <code>&lt;div&gt;</code> element with a class of "container" is a block-level container that wraps the marker elements.</li>
+  <li>There are three <code>&lt;div&gt;</code> elements with the class "marker," each representing a colored marker.</li>
+  <li>Each "marker" <code>&lt;div&gt;</code> contains two nested <code>&lt;div&gt;</code> elements:
+    <ul>
+      <li><code>&lt;div class="cap"&gt;</code>: This represents the cap of the marker.</li>
+      <li><code>&lt;div class="sleeve"&gt;</code>: This represents the sleeve/body of the marker.</li>
+    </ul>
+  </li>
+</ul>
+The provided HTML code creates a simple webpage for displaying colored markers using CSS classes. The markers are represented by nested <div> elements, with each marker having a different color class ("red," "green," and "blue"). The appearance and positioning of these markers are likely defined in the linked "styles.css" file. The webpage contains a main heading, "CSS Color Markers," and the markers are wrapped within a container for better organization and styling.
 
-The <html> tag encloses the entire HTML document, and the lang attribute is set to "en," indicating that the document is written in English.
+<h1>Explanation - CSS Code:<.h1>
 
-The <head> element contains metadata information, including:
+The CSS code starts with a rule targeting the <h1> element and sets its text alignment to center. This will center-align the text inside all <h1> headings on the webpage.
 
-<meta charset="utf-8">: This specifies the character encoding of the document as UTF-8, which supports a wide range of characters from different languages.
-<meta name="viewport" content="width=device-width, initial-scale=1.0">: This sets the viewport width to the device's width and the initial zoom scale to 1.0. It helps ensure that the webpage displays correctly on different devices with varying screen sizes.
-The <title> element within the <head> element sets the title of the webpage to "Colored Markers."
+The .container class is defined to style the container element. It sets the background color to white (RGB: 255, 255, 255) and adds top and bottom padding of 10 pixels and 0 pixels on the left and right sides.
 
-The <link> element is used to link an external CSS file named "styles.css" to the HTML document. This file likely contains additional styles for the webpage.
+The .marker class is defined to style the marker elements. It sets the width to 200 pixels, the height to 25 pixels, and margin to 10 pixels auto. The auto value for the margin horizontally centers the markers within their parent container.
 
-Inside the <body> element, there is an <h1> heading element with the text "CSS Color Markers." This represents the main heading of the webpage.
+The .cap class is defined to style the cap part of the marker. It sets the width to 60 pixels and the height to 25 pixels.
 
-The <div> element with a class of "container" is a block-level container that wraps the marker elements.
+The .sleeve class is defined to style the sleeve (body) part of the marker. It sets the width to 110 pixels, the height to 25 pixels, and the background color to a semi-transparent white (RGB: 255, 255, 255, 0.5). It also adds a double border on the left side with a width of 10 pixels, colored in a semi-transparent black (RGB: 0, 0, 0, 0.75).
 
-There are three <div> elements with the class "marker," each representing a colored marker. They are styled using CSS classes "red," "green," and "blue."
+The .cap and .sleeve classes have the property display: inline-block;. This makes the .cap and .sleeve elements behave like inline-block elements, allowing them to be displayed next to each other horizontally.
 
-Each "marker" <div> contains two nested <div> elements:
+The .red class is defined to style the markers with a red color gradient background. It uses a linear gradient from a dark brownish-red (RGB: 122, 74, 14) to a bright pinkish-red (RGB: 245, 62, 113) and ends with a deep red (RGB: 162, 27, 27). It also adds a box shadow with a blur radius of 20 pixels and a semi-transparent dark red color (RGB: 83, 14, 14, 0.8) to create a shadow effect.
 
-<div class="cap">: This represents the cap of the marker.
-<div class="sleeve">: This represents the sleeve/body of the marker.
+The .green class is defined to style the markers with a green color gradient background. It uses a linear gradient from a dark green (#55680D) to a bright green (#71F53E) and ends with a dark green (#116C31). It also adds a box shadow with a blur radius of 20 pixels and a semi-transparent green color (#3B7E20CC) to create a shadow effect.
+
+The .blue class is defined to style the markers with a blue color gradient background. It uses a linear gradient from a dark blue (HSL: 186, 76%, 16%) to a bright turquoise (HSL: 223, 90%, 60%) and ends with a deep blue (HSL: 240, 56%, 42%). It also adds a box shadow with a blur radius of 20 pixels and a fully opaque blue color to create a shadow effect.
