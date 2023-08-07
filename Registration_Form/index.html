@@ -1,46 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Explanation</title>
-  <style>
-    ul {
-      list-style-type: disc;
-      margin-left: 20px;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-  </style>
-</head>
-<body>
-  <h1>CSS Explanation</h1>
-  <ul>
-    <li>
-      <strong>body:</strong> 
-      The background image of the webpage is set to "https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg". The font family used for the text within the &lt;body&gt; element is set to sans-serif. The &lt;body&gt; element has a padding of 20 pixels.
-    </li>
-    <li>
-      <strong>h1:</strong> 
-      The font size of &lt;h1&gt; elements is set to 40 pixels. The top margin is set to 0 to remove any default spacing, and the bottom margin is set to 15 pixels.
-    </li>
-    <li>
-      <strong>h2:</strong> 
-      The font size of &lt;h2&gt; elements is set to 30 pixels.
-    </li>
-    <li>
-      <strong>.established:</strong> 
-      Any element with the class "established" has its font style set to italic.
-    </li>
-    <li>
-      <strong>h1, h2, p:</strong> 
-      &lt;h1&gt;, &lt;h2&gt;, and &lt;p&gt; elements have their text alignment set to center.
-    </li>
-    <li>
-      <strong>.menu:</strong> 
-      Any element with the class "menu" has the following styles applied: It has a width of 80%. The background color is set to "burlywood". It is horizontally centered on the page using the margin-left: auto; and margin-right: auto; properties. It has a padding of 20 pixels. The maximum width is set to 500 pixels.
-    </li>
-  </ul>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
 </html>
