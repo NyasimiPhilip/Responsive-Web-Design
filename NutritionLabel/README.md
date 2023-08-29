@@ -81,5 +81,3 @@
       <p>This rule targets elements with the class <code>"note"</code>. It reduces the font size to 0.6rem and provides a small margin above and below, creating a compact and subtle visual distinction for notes.</p>
     </li>
   </ul>
-
-  
