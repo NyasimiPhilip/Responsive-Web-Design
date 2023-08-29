@@ -1,22 +1,38 @@
-<code>index.html:</code>
-
-The document starts with the HTML doctype declaration.
-Inside the <html> tag, the language attribute is set to "en" for English.
-The <head> section contains metadata, including character encoding and the webpage title.
-Two external resources are linked in the <head> section:
-A Google Fonts stylesheet for the "Open Sans" font family.
-An external CSS stylesheet named "styles.css" for applying styles to the HTML content.
-The main content of the webpage is contained within a <div> element with the class "label".
-Within the <div class="label">, there's a <header> element.
-The nutrition label's title is displayed using an <h1> element with the class "bold".
-A horizontal line divider is created using a <div> element with the class "divider".
-Information about servings per container and serving size is displayed using <p> elements.
-Another horizontal line divider is added using a <div> element with the class "divider large".
-The "Calories" information is presented within a <div> element with the class "calories-info".
-The left part contains an <h2> element and a <p> element.
-The calorie count (230) is displayed using a <span> element.
-Additional horizontal line dividers are used with <div> elements of classes "divider medium" and "divider".
-Nutrition information with daily values is structured within a <div> element with the class "daily-value small-text".
-<p> elements display various nutrient values and their percentages of the daily value.
-The nutrition label information is followed by another horizontal line divider using a <div> element with the class "divider medium".
-A note about the daily value's significance is presented using a <p> element with the class "note".
+  <h1>Nutrition Label Website</h1>
+  
+  <code><h2>index.html:</h2></code>
+  <p>The document structure is as follows:</p>
+  <ul>
+    <li>HTML doctype declaration.</li>
+    <li>Language attribute set to "en" for English content.</li>
+    <li>Metadata, including character encoding and the webpage title, in the &lt;head&gt; section.</li>
+    <li>External resources linked:</li>
+    <ul>
+      <li>Google Fonts stylesheet for the "Open Sans" font family.</li>
+      <li>External CSS stylesheet "styles.css" for styling.</li>
+    </ul>
+    <li>Main content enclosed within a &lt;div&gt; element with the class "label".</li>
+    <li>Within the &lt;div class="label"&gt;:</li>
+    <ul>
+      <li>Header content grouped using &lt;header&gt; element.</li>
+      <li>Nutrition label title displayed as an &lt;h1&gt; element with the class "bold".</li>
+      <li>Horizontal line divider created with &lt;div&gt; element having the class "divider".</li>
+      <li>Information about servings per container displayed using &lt;p&gt; element.</li>
+      <li>Serving size emphasized using a &lt;p&gt; element containing a &lt;span&gt; element.</li>
+      <li>Another horizontal line divider added with &lt;div&gt; element having the class "divider large".</li>
+      <li>The "Calories" information structured in &lt;div class="calories-info"&gt;:</li>
+      <ul>
+        <li>Left part containing &lt;h2&gt; element with classes "bold" and "small-text".</li>
+        <li>Descriptive &lt;p&gt; element conveying calorie information.</li>
+        <li>Calorie count (230) displayed with &lt;span&gt; element.</li>
+        <li>Additional horizontal line dividers with &lt;div&gt; elements of classes "divider medium" and "divider".</li>
+      </ul>
+      <li>Nutritional information with daily values structured within &lt;div class="daily-value small-text"&gt;:</li>
+      <ul>
+        <li>&lt;p&gt; element displaying bold "Total Fat" value with amount (8g) and percentage (10%) using nested &lt;span&gt; element.</li>
+        <li>Additional nutrient values and corresponding percentages listed in &lt;ul&gt; element with each value as &lt;li&gt; element.</li>
+      </ul>
+      <li>Nutrition label information ends with horizontal line divider created with &lt;div&gt; element having the class "divider medium".</li>
+      <li>A note about the daily value's significance presented using &lt;p&gt; element with class "note".</li>
+    </ul>
+  </ul>
