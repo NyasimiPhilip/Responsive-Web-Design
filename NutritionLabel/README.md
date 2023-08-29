@@ -36,7 +36,7 @@
       <li>A note about the daily value's significance presented using <code>&lt;p&gt;</code> element with class "note".</li>
     </ul>
    
-  <code><h1>styles.css</h1></code>
+  <code><h2>styles.css</h2</code>
   
   <p>These CSS rules collectively define the styling for various elements in the HTML document</p>
   <ul>
