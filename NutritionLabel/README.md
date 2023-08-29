@@ -37,7 +37,7 @@
     </ul>
   </ul>
   <h1>CSS Styling Guide</h1>
-  <p>These CSS rules collectively define the styling for various elements in the HTML document, contributing to a consistent and visually appealing layout and presentation.</p>
+  <p>These CSS rules collectively define the styling for various elements in the HTML document</p>
   <ul>
     <li><code>* { box-sizing: border-box; }</code>:
       <p>This rule applies the CSS property <code>box-sizing</code> with a value of <code>border-box</code> to all elements on the page. It ensures that an element's total width and height includes its padding and border, rather than adding padding and border to the element's dimensions, which can cause unexpected layout issues.</p>
