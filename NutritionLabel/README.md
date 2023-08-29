@@ -36,7 +36,7 @@
       <li>A note about the daily value's significance presented using <code>&lt;p&gt;</code> element with class "note".</li>
     </ul>
   </ul>
-  <h1>CSS Styling Guide</h1>
+  <code><h1>styles.css</h1></code>
   <p>These CSS rules collectively define the styling for various elements in the HTML document</p>
   <ul>
     <li><code>* { box-sizing: border-box; }</code>:
