@@ -1,21 +1,20 @@
-  <h1>Nutrition Label Website</h1>
-  
-  <code><h2>index.html:</h2></code>
+  <h1>Nutrition Label Website</h1>  
+  <code><h2>Index.html:</h2></code>
   <p>The document structure is as follows:</p>
   <ul>
     <li>HTML doctype declaration.</li>
     <li>Language attribute set to "en" for English content.</li>
-    <li>Metadata, including character encoding and the webpage title, in the &lt;head&gt; section.</li>
+    <li>Metadata, including character encoding and the webpage title, in the <code>&lt;head&gt;</code> section.</li>
     <li>External resources linked:</li>
     <ul>
       <li>Google Fonts stylesheet for the "Open Sans" font family.</li>
       <li>External CSS stylesheet "styles.css" for styling.</li>
     </ul>
-    <li>Main content enclosed within a &lt;div&gt; element with the class "label".</li>
-    <li>Within the &lt;div class="label"&gt;:</li>
+    <li>Main content enclosed within a <code>&lt;div&gt;</code> element with the class "label".</li>
+    <li>Within the <code>&lt;div class="label"&gt;</code><li>
     <ul>
-      <li>Header content grouped using &lt;header&gt; element.</li>
-      <li>Nutrition label title displayed as an &lt;h1&gt; element with the class "bold".</li>
+      <li>Header content grouped using <code>&lt;header&gt;</code> element.</li>
+      <li>Nutrition label title displayed as an M&lt;h1&gt; element with the class "bold".</li>
       <li>Horizontal line divider created with &lt;div&gt; element having the class "divider".</li>
       <li>Information about servings per container displayed using &lt;p&gt; element.</li>
       <li>Serving size emphasized using a &lt;p&gt; element containing a &lt;span&gt; element.</li>
