@@ -1,4 +1,4 @@
-<u><code><h1>index.html</h1></code></u>
+<u><code><h1>styles.css</h1></code></u>
 <ul>
     <li><code>&lt;!DOCTYPE html&gt;</code>: This declaration defines the document type and version of HTML being used.</li>
     <li><code>&lt;html lang="en"&gt;</code>: The opening tag of the HTML document, with the <code>lang</code> attribute specifying the language of the content as English.</li>
@@ -92,5 +92,80 @@
 <ul>
     <li><code>width</code>, <code>margin</code>, and <code>max-width</code> define the width and margin of the sections, controlling their appearance.</li>
 </ul>
+<h1, h2>: Styles for level 1 and level 2 headings.
+<ul>
+    <li><code>font-family</code> specifies the font family for both heading levels.</li>
+</ul>
+<h2>: Styles specifically for level 2 headings.
+<ul>
+    <li><code>border-bottom</code>, <code>margin-top</code>, and <code>padding-top</code> add a visual separator below level 2 headings and control spacing.</li>
+</ul>
+<p><code>.info</code>: Styles for informational elements.</p>
+<ul>
+    <li><code>padding</code> defines padding for the informational elements.</li>
+</ul>
+<p><code>.formrow</code>: Styles for form rows.</p>
+<ul>
+    <li><code>margin-top</code> and <code>padding</code> control spacing and padding for form rows.</li>
+</ul>
+<p><code>input</code>: Styles for input fields.</p>
+<ul>
+    <li><code>font-size</code> sets the font size for input fields.</li>
+</ul>
+<p><code>.info label, .info input</code>: Styles for labels and input fields within the <code>.info</code> class.</p>
+<ul>
+    <li><code>display: inline-block</code> makes labels and input fields inline-block elements.</li>
+    <li><code>width</code>, <code>text-align</code>, and <code>min-width</code> control the width and alignment of labels and input fields.</li>
+</ul>
+<p><code>.info input</code>: Styles specifically for input fields within the <code>.info</code> class.</p>
+<ul>
+    <li><code>width</code> sets the width of input fields.</li>
+    <li><code>text-align</code> aligns text within input fields.</li>
+</ul>
+<p><code>.info label</code>: Styles specifically for labels within the <code>.info</code> class.</p>
+<ul>
+    <li><code>width</code> and <code>text-align</code> control the width and alignment of labels.</li>
+</ul>
+<p><code>.question-block</code>: Styles for question blocks.</p>
+<ul>
+    <li><code>text-align</code>, <code>width</code>, <code>margin-top</code>, and <code>padding-top</code> control alignment, width, margin, and padding for question blocks.</li>
+</ul>
+<p><code>p</code>: Styles for paragraphs.</p>
+<ul>
+    <li><code>margin-top</code>, <code>padding-left</code>, and <code>font-size</code> control spacing, indentation, and font size for paragraphs.</li>
+</ul>
+<p><code>p::before</code>: Styles for adding content before paragraphs.</p>
+<ul>
+    <li><code>content</code> adds a label before paragraphs.</li>
+</ul>
+<p><code>.question</code>: Styles for question elements.</p>
+<ul>
+    <li><code>border</code>, <code>padding-bottom</code> control the appearance of question elements.</li>
+</ul>
+<p><code>.answers-list</code>: Styles for lists of answers.</p>
+<ul>
+    <li><code>list-style</code>, <code>padding</code> control the list style and padding for answers.</li>
+</ul>
+<p><code>button</code>: Styles for buttons.</p>
+<ul>
+    <li><code>display</code>, <code>margin</code>, <code>width</code>, <code>padding</code>, <code>font-size</code>, <code>background</code>, and <code>border</code> define the appearance of buttons.</li>
+</ul>
+<p><code>footer</code>: Styles for the footer section.</p>
+<ul>
+    <li><code>background-color</code> and <code>display</code> define the background color and display property of the footer.</li>
+</ul>
+<p><code>footer, footer a</code>: Styles for footer elements and links within the footer.</p>
+<ul>
+    <li><code>color</code> defines the text color for footer elements and links.</li>
+</ul>
+<p><code>address</code>: Styles for address element.</p>
+<ul>
+    <li><code>text-align</code> and <code>padding</code> control alignment and padding for the address.</li>
+</ul>
+<p><code>.sr-only</code>: Styles for creating screen-reader only content.</p>
+<ul>
+    <li>This class is used to make content accessible to screen readers while keeping it hidden from visual users.</li>
+</ul>
+
 
 
