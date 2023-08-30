@@ -46,53 +46,96 @@
     </ul>
 </ul>
 <u><code><h1>styles.css</h1></code></u>
+<code>@media (prefers-reduced-motion: no-preference) {<br>* {<br>scroll-behavior: smooth;<br>}</code>
 
-<p><code>@media (prefers-reduced-motion: no-preference)</code>: This is a media query that targets devices or user preferences that do not have a preference for reduced motion. In this case, it applies styles when the user doesn't prefer reduced motion effects.</p>
-<p><code>*</code> { <code>scroll-behavior: smooth;</code> }: This rule selects all elements on the page (indicated by <code>*</code>) and sets the <code>scroll-behavior</code> property to smooth, resulting in smooth scrolling behavior when navigating to anchor links.</p>
-<p><code>body</code>: Styles for the entire body of the webpage.</p>
-<ul>
-    <li><code>background</code>, <code>color</code>, <code>font-family</code>, and <code>margin</code> define the background color, text color, font family, and margin of the entire body.</li>
-</ul>
-<p><code>header</code>: Styles for the header section of the webpage.</p>
-<ul>
-    <li><code>width</code>, <code>height</code>, <code>background-color</code>, <code>display</code>, <code>justify-content</code>, <code>align-items</code>, <code>position</code>, and <code>top</code> define the dimensions, background color, display properties, and positioning of the header. It's set to be fixed at the top of the viewport.</li>
-</ul>
-<p><code>#logo</code>: Styles for the logo element.</p>
-<ul>
-    <li><code>width</code>, <code>background-color</code>, <code>aspect-ratio</code>, and <code>padding</code> define the logo's width, background color, aspect ratio (width-to-height ratio), and padding.</li>
-</ul>
-<p><code>h1</code>: Styles for level 1 headings.</p>
-<ul>
-    <li><code>color</code>, <code>font-size</code>, and <code>text-align</code> define the text color, font size, and text alignment of level 1 headings.</li>
-</ul>
-<p><code>nav</code>: Styles for the navigation element.</p>
-<ul>
-    <li><code>width</code> and <code>max-width</code> set the width of the navigation and limit its maximum width.</li>
-</ul>
-<p><code>nav &gt; ul</code>: Styles for the unordered list within the navigation.</p>
-<ul>
-    <li><code>display</code>, <code>justify-content</code>, <code>flex-wrap</code>, <code>align-items</code>, <code>padding-inline-start</code>, <code>margin-block</code>, and <code>height</code> control the layout, alignment, padding, and height of the list items within the navigation.</li>
-</ul>
-<p><code>nav &gt; ul &gt; li</code>: Styles for the list items within the navigation.</p>
-<ul>
-    <li><code>color</code>, <code>margin</code>, <code>padding</code>, and <code>display</code> define the text color, margin, padding, and display property of the list items.</li>
-</ul>
-<p><code>nav &gt; ul &gt; li:hover</code>: Styles for list items on hover.</p>
-<ul>
-    <li>These styles define the appearance of list items when they are hovered over.</li>
-</ul>
-<p><code>li &gt; a</code>: Styles for links within list items.</p>
-<ul>
-    <li><code>color</code> and <code>text-decoration</code> define the text color and text decoration (underline) for links.</li>
-</ul>
-<p><code>main</code>: Styles for the main content area.</p>
-<ul>
-    <li><code>padding-top</code> creates space at the top of the content to avoid overlap with the fixed header.</li>
-</ul>
-<p><code>section</code>: Styles for sections within the main content.</p>
-<ul>
-    <li><code>width</code>, <code>margin</code>, and <code>max-width</code> define the width and margin of the sections, controlling their appearance.</li>
-</ul>
+<p>This media query targets devices with a preference for no-reduced motion. Within this context, all elements (<code>*</code>) are styled to have smooth scrolling behavior using the <code>scroll-behavior</code> property. This property enables smooth scrolling when navigating through content, providing a more visually appealing and fluid user experience.</p>
+<code>body {<br>/* ... */<br>}</code>
+
+<p>This rule targets the <code>body</code> element, defining its background color as <code>#f5f6f7</code> and text color as <code>#1b1b32</code>. The font family is set to <code>Helvetica</code> for text consistency. Additionally, the <code>margin</code> is set to 0 to remove any default spacing around the body content.</p>
+<code>header {<br>/* ... */<br>}</code>
+
+<p>This rule targets the <code>header</code> element, establishing styling for a fixed header at the top of the page. It sets the header's background color to <code>#1b1b32</code>, and uses flex properties to align items within the header, including space-between justification and center alignment. The <code>position: fixed</code> property fixes the header's position at the top of the viewport.</p>
+<code>#logo {<br>/* ... */<br>}</code>
+
+<p>This rule targets the element with the ID <code>#logo</code>. It defines styling properties, including width using <code>max()</code> to ensure that the logo's width is at least 100px or 18% of the viewport width (whichever is larger). Background color, aspect ratio, and padding are also set for the logo container.</p>
+<code>h1 {<br>/* ... */<br>}</code>
+
+<p>This rule targets <code>h1</code> elements, specifying that they have a color of <code>#f1be32</code> (a shade of yellow), and the font size is responsive using <code>min()</code> to be either 5% of the viewport width or 1.2em (whichever is smaller). Text alignment is centered.</p>
+<code>nav {<br>/* ... */<br>}</code>
+
+<p>This rule targets the <code>nav</code> element, specifying its width as 50% and a maximum width of 300px. The height is set to 50px.</p>
+<code>nav > ul {<br>/* ... */<br>}</code>
+
+<p>This rule targets the unordered list within the navigation (<code>nav &gt; ul</code>). It uses flex properties to evenly distribute list items and wrap them in case of overflow. The list items are centered vertically using <code>align-items: center</code>.</p>
+<code>nav > ul > li {<br>/* ... */<br>}</code>
+
+<p>This rule targets list items within the navigation (<code>nav &gt; ul &gt; li</code>). It sets the text color to <code>#dfdfe2</code>, adds margin and padding, and displays the list items as blocks.</p>
+<code>nav > ul > li:hover {<br>/* ... */<br>}</code>
+
+<p>This rule targets list items within the navigation when hovered over. It changes the background color to <code>#dfdfe2</code>, the text color to <code>#1b1b32</code>, and changes the cursor to a pointer, indicating interactivity.</p>
+<code>li > a {<br>/* ... */<br>}</code>
+
+<p>This rule targets links within list items. It sets the link color to inherit from the parent element and removes text decoration.</p>
+<code>main {<br>/* ... */<br>}</code>
+
+<p>This rule targets the <code>main</code> element and adds padding at the top to prevent content from being covered by the fixed header.</p>
+<code>section {<br>/* ... */<br>}</code>
+
+<p>This rule targets <code>section</code> elements, specifying their width as 80%, centering them horizontally with auto margins, and setting a maximum width of 600px.</p>
+<code>h2 {<br>/* ... */<br>}</code>
+
+<p>This rule targets <code>h2</code> elements. It adds a border at the bottom with a 4px solid line of color <code>#dfdfe2</code>, and adjusts margin and padding to create a clean and visually pleasing heading appearance.</p>
+<code>.info {<br>/* ... */<br>}</code>
+
+<p>This rule targets elements with the class <code>"info"</code>. It adds padding to the top and left, creating a consistent spacing for information containers.</p>
+<code>.formrow {<br>/* ... */<br>}</code>
+
+<p>This rule targets elements with the class <code>"formrow"</code>. It adds margin at the top and horizontal padding, creating spacing around form elements.</p>
+<code>input {<br>/* ... */<br>}</code>
+
+<p>This rule targets all <code>input</code> elements, setting the font size to 16px for uniformity.</p>
+<code>.info label, .info input {<br>/* ... */<br>}</code>
+
+<p>This rule targets label and input elements within elements with the class <code>"info"</code>. It sets them to display as inline-block elements, ensuring they are on the same line within the container.</p>
+<code>.info input {<br>/* ... */<br>}</code>
+
+<p>This rule targets input elements within elements with the class <code>"info"</code>. It sets their width to 50% and aligns the text to the left, providing a consistent and visually appealing layout.</p>
+<code>.info label {<br>/* ... */<br>}</code>
+
+<p>This rule targets label elements within elements with the class <code>"info"</code>. It sets the width to 10% and a minimum width of 55px, aligning the text to the right for a label-like appearance.</p>
+<code>.question-block {<br>/* ... */<br>}</code>
+
+<p>This rule targets elements with the class <code>"question-block"</code>. It sets the text alignment to the left, creates block-level display, adjusts width to 100%, and adds margin at the top. Padding at the top provides spacing within the question block.</p>
+<code>p {<br>/* ... */<br>}</code>
+
+<p>This rule targets <code>p</code> elements, adjusting margin at the top and adding left padding. The font size is set to 20px, ensuring a consistent and readable text size.</p>
+<code>p::before {<br>/* ... */<br>}</code>
+
+<p>This rule targets the <code>::before</code> pseudo-element of <code>p</code> elements. It adds content "Question #" before each paragraph, serving as a label for questions.</p>
+<code>.question {<br>/* ... */<br>}</code>
+
+<p>This rule targets elements with the class <code>"question"</code>. It removes borders and padding at the bottom, maintaining a clean and unobtrusive appearance for question sections.</p>
+<code>.answers-list {<br>/* ... */<br>}</code>
+
+<p>This rule targets the list of answers. It removes default list styles by setting <code>list-style</code> to <code>none</code> and removes padding.</p>
+<code>button {<br>/* ... */<br>}</code>
+
+<p>This rule targets <code>button</code> elements, centering them using auto margins, setting a width of 40%, adding padding, and defining font size and background/border colors. This creates visually appealing and interactive buttons.</p>
+<code>footer {<br>/* ... */<br>}</code>
+
+<p>This rule targets the <code>footer</code> element, adding a background color of <code>#2a2a40</code> and using flex properties to horizontally center its contents.</p>
+<code>footer, footer a {<br>/* ... */<br>}</code>
+
+<p>This rule targets <code>footer</code> and <code>a</code> elements within the footer. It sets the color to <code>#dfdfe2</code>, maintaining a consistent link color within the footer.</p>
+<code>address {<br>/* ... */<br>}</code>
+
+<p>This rule targets <code>address</code> elements, adjusting text alignment to the center and adding padding for a visually balanced appearance.</p>
+<code>.sr-only {<br>/* ... */<br>}</code>
+
+<p>This rule targets elements with the class <code>"sr-only"</code> which are intended to be hidden from view while remaining accessible to screen readers. It applies styles to position the element off-screen using absolute positioning and <code>clip: rect(0, 0, 0, 0)</code>.</p>
+
+
+
 
 
 
