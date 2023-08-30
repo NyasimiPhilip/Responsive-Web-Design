@@ -1,4 +1,4 @@
-<code>index.html></code>
+<code><h1>index.html></h1></code>
 <ul>
     <li><code>&lt;!DOCTYPE html&gt;</code>: This declaration defines the document type and version of HTML being used.</li>
     <li><code>&lt;html lang="en"&gt;</code>: The opening tag of the HTML document, with the <code>lang</code> attribute specifying the language of the content as English.</li>
