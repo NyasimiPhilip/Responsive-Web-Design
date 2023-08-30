@@ -105,8 +105,6 @@
   </li>
 </ul>
 
-<p>The entire structure conforms to HTML's semantic elements, which help structure the webpage's content for better accessibility and SEO.</p>
-
 <code><h1>styles.css</h1></code>
 <ul>
   <li>
