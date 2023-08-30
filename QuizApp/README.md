@@ -1,4 +1,4 @@
-<u><code><h1>styles.css</h1></code></u>
+<u><code><h1>index.css</h1></code></u>
 <ul>
     <li><code>&lt;!DOCTYPE html&gt;</code>: This declaration defines the document type and version of HTML being used.</li>
     <li><code>&lt;html lang="en"&gt;</code>: The opening tag of the HTML document, with the <code>lang</code> attribute specifying the language of the content as English.</li>
@@ -45,7 +45,7 @@
         </ul>
     </ul>
 </ul>
-<u><code><h1>index.html</h1></code></u>
+<u><code><h1>styles.css</h1></code></u>
 <p><code>@media (prefers-reduced-motion: no-preference)</code>: This is a media query that targets devices or user preferences that do not have a preference for reduced motion. In this case, it applies styles when the user doesn't prefer reduced motion effects.</p>
 <p><code>*</code> { <code>scroll-behavior: smooth;</code> }: This rule selects all elements on the page (indicated by <code>*</code>) and sets the <code>scroll-behavior</code> property to smooth, resulting in smooth scrolling behavior when navigating to anchor links.</p>
 <p><code>body</code>: Styles for the entire body of the webpage.</p>
