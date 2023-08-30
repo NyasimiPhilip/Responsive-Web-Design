@@ -1,114 +1,111 @@
 <code><h1>index.html</h1></code>
-<!DOCTYPE html>
+
 <ul>
   <li>
-    <h>DOCTYPE html</h>:
+    <code>&lt;!DOCTYPE html&gt;</code>:
     <p>This declaration defines the document type and version of HTML being used.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>html</h>:
+    <code>&lt;html&gt;</code>:
     <p>The root element of the HTML document, containing all other elements.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>head</h>:
+    <code>&lt;head&gt;</code>:
     <p>Contains metadata about the document, including the title of the webpage and links to external resources like stylesheets.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>title</h>:
+    <code>&lt;title&gt;</code>:
     <p>Sets the title that appears in the browser's title bar or tab.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>link</h>:
+    <code>&lt;link&gt;</code>:
     <p>Specifies an external stylesheet (<code>styles.css</code>) to be applied to the HTML content.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>style</h>:
+    <code>&lt;style&gt;</code>:
     <p>Contains inline CSS rules. In this case, it defines styling for an element with the <code>#image</code> id.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>body</h>:
+    <code>&lt;body&gt;</code>:
     <p>The main content of the webpage is contained within this element.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>main</h>:
+    <code>&lt;main&gt;</code>:
     <p>A semantic element used to define the main content of the document.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>h1</h>:
+    <code>&lt;h1&gt;</code>:
     <p>A level 1 heading element displaying the text "Dr. Norman Borlaug".</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>div id="img-div"</h>:
+    <code>&lt;div id="img-div"&gt;</code>:
     <p>A container for the image and its caption.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>img</h>:
+    <code>&lt;img&gt;</code>:
     <p>Displays an image of Dr. Norman Borlaug. The <code>src</code> attribute contains a base64-encoded image.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>figcaption</h>:
+    <code>&lt;figcaption&gt;</code>:
     <p>Provides a caption for the image.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>div id="tribute-info"</h>:
+    <code>&lt;div id="tribute-info"&gt;</code>:
     <p>A container for the tribute information.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>p</h>:
+    <code>&lt;p&gt;</code>:
     <p>Paragraph elements containing information about Dr. Norman Borlaug and his contributions.</p>
   </li>
 </ul>
 
 <ul>
   <li>
-    <h>a id="tribute-link"</h>:
+    <code>&lt;a id="tribute-link"&gt;</code>:
     <p>A hyperlink element that links to an external website (<a href="https://example.com" target="_blank">https://example.com</a>) about Dr. Norman Borlaug. It opens in a new tab due to the <code>target="_blank"</code> attribute.</p>
   </li>
 </ul>
 
 <p>The entire structure conforms to HTML's semantic elements, which help structure the webpage's content for better accessibility and SEO.</p>
-
-
-
 
 <code><h1>styles.css</h1></code>
 <ul>
