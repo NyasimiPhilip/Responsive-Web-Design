@@ -180,36 +180,3 @@
     <li><code>text-align: right;</code> - Right-aligns the text within each year indicator.</li>
   </ul>
 </ul>
-
-<code><h1>styles.css</h1></code>
-
-<ul>
-  <li><code>.table-wrap</code> - Selects elements with the "table-wrap" class and applies the following styles:</li>
-  <ul>
-    <li><code>padding: 0 0.75rem 1.5rem 0.75rem;</code> - Adds padding to the top (0), right (0.75rem), bottom (1.5rem), and left (0.75rem), creating space around the tables.</li>
-  </ul>
-</ul>
-
-<ul>
-  <li><code>table</code> - Selects <code>&lt;table&gt;</code> elements and applies the following styles:</li>
-  <ul>
-    <li><code>border-collapse: collapse;</code> - Collapses the borders of table cells so that adjacent borders merge into a single border.</li>
-    <li><code>border: 0;</code> - Removes the default border on tables.</li>
-    <li><code>width: 100%;</code> - Sets the table width to 100% of its containing element.</li>
-    <li><code>position: relative;</code> - Sets the position to relative, allowing absolute positioning of elements inside the table.</li>
-    <li><code>margin-top: 3rem;</code> - Adds a top margin of 3rem, creating space between tables and the previous content.</li>
-  </ul>
-</ul>
-
-<ul>
-  <li><code>table caption</code> - Selects <code>&lt;caption&gt;</code> elements within tables and applies the following styles:</li>
-  <ul>
-    <li><code>color: #356eaf;</code> - Sets the text color of captions to a blueish color (#356eaf).</li>
-    <li><code>font-size: 1.3em;</code> - Sets the font size to 1.3em for captions.</li>
-    <li><code>font-weight: normal;</code> - Sets the font weight to normal for captions.</li>
-    <li><code>position: absolute;</code> - Positions captions absolutely, allowing them to be placed above the table.</li>
-    <li><code>top: -2.25rem;</code> - Shifts the caption 2.25rem above the top of the table.</li>
-    <li><code>left: 0.5rem;</code> - Adds 0.5rem of left spacing to the caption.</li>
-  </ul>
-</ul>
-
