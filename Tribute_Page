@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    #image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Dr. Norman Borlaug</h1>
+    <div id="img-div">
+      <img id="image" src="your-image.jpg" alt="Dr. Norman Borlaug">
+      <figcaption id="img-caption">Dr. Norman Borlaug</figcaption>
+    </div>
+    <div id="tribute-info">
+      <p>
+        Dr. Norman Borlaug was an American biologist, humanitarian, and Nobel laureate who played a vital role in the Green Revolution. He is often referred to as the "Father of the Green Revolution" for his work in developing high-yielding varieties of wheat, which significantly increased global food production.
+      </p>
+      <p>
+        Borlaug's groundbreaking agricultural research and advocacy for sustainable farming practices helped alleviate hunger and improve agricultural productivity in many developing countries. His efforts to combat hunger and poverty have had a lasting impact on global food security.
+      </p>
+    </div>
+    <a id="tribute-link" href="https://example.com" target="_blank">Learn more about Dr. Norman Borlaug</a>
+  </main>
+</body>
+</html>
