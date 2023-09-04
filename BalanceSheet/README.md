@@ -44,72 +44,105 @@
   </ul>
 </ul>
 <code><h1>styles.css</h1></code>
-
 <ul>
-  <li><code>Section Styles (section):</code></li>
+  <li><code>span[class~="sr-only"]:</code> This selector targets <code>&lt;span&gt;</code> elements with a <code>class</code> attribute containing the class name <code>"sr-only"</code>. It is often used for accessibility purposes to hide elements visually while still making them available to screen readers. The styles applied to these elements make them effectively invisible by reducing their size, positioning, and other properties.</li>
   <ul>
-    <li>Selects <code>&lt;section&gt;</code> elements and applies the following styles:</li>
-    <li><code>max-width: 40rem;</code> - Sets the maximum width of <code>&lt;section&gt;</code> to 40 rem units.</li>
-    <li><code>margin: 0 auto;</code> - Centers the <code>&lt;section&gt;</code> horizontally by setting left and right margins to "auto."</li>
-    <li><code>border: 2px solid #d0d0d5;</code> - Adds a 2px solid border with a light gray color (#d0d0d5) around the <code>&lt;section&gt;</code>.</li>
+    <li><code>border: 0 !important;</code>: Removes any borders.</li>
+    <li><code>clip: rect(1px, 1px, 1px, 1px) !important;</code>: Clips the element to a 1x1 pixel area, effectively hiding it.</li>
+    <li><code>clip-path: inset(50%) !important;</code>: Uses a clip path to hide the element.</li>
+    <li><code>height: 1px !important;</code>: Sets the height to 1 pixel.</li>
+    <li><code>width: 1px !important;</code>: Sets the width to 1 pixel.</li>
+    <li><code>position: absolute !important;</code>: Positions the element absolutely.</li>
+    <li><code>overflow: hidden !important;</code>: Hides any overflowing content.</li>
+    <li><code>white-space: nowrap !important;</code>: Prevents wrapping of text.</li>
+    <li><code>padding: 0 !important;</code>: Removes padding.</li>
+    <li><code>margin: -1px !important;</code>: Sets a negative margin to further hide the element.</li>
   </ul>
 </ul>
 
 <ul>
-  <li><code>Sticky Header Styles (#years):</code></li>
-  <ul>
-    <li>Selects the element with the "years" ID and applies the following styles:</li>
-    <li><code>display: flex;</code> - Turns the element into a flex container.</li>
-    <li><code>justify-content: flex-end;</code> - Aligns flex items to the end of the container (right-aligned).</li>
-    <li><code>position: sticky;</code> - Makes the element position sticky within its containing context.</li>
-    <li><code>z-index: 999;</code> - Sets the z-index to 999, ensuring it appears above other elements.</li>
-    <li><code>top: 0;</code> - Sticks the element to the top of the viewport.</li>
-    <li><code>background: #0a0a23;</code> - Sets the background color to a dark blueish color (#0a0a23).</li>
-    <li><code>color: #fff;</code> - Sets the text color to white (#fff).</li>
-    <li><code>padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;</code> - Adds padding to the top (0.5rem), right (calc(1.25rem + 2px)), and bottom (0.5rem), effectively creating spacing.</li>
-    <li><code>margin: 0 -2px;</code> - Sets negative margins on the left and right sides, ensuring the element aligns with the border of its parent.</li>
-  </ul>
+  <li><code>html:</code> This selector targets the HTML root element and sets the <code>box-sizing</code> property to <code>"border-box."</code> This ensures that padding and borders are included in the element's total width and height.</li>
 </ul>
 
 <ul>
-  <li><code>Year Indicator Styles (#years span[class]):</code></li>
-  <ul>
-    <li>Selects <code>&lt;span&gt;</code> elements with a "class" attribute that are descendants of the element with the "years" ID. These styles apply to the year indicators (2019, 2020, 2021) within the "years" element:</li>
-    <li><code>font-weight: bold;</code> - Sets the font weight to bold for these year indicators.</li>
-    <li><code>width: 4.5rem;</code> - Sets a fixed width of 4.5rem for each year indicator, aligning them properly.</li>
-    <li><code>text-align: right;</code> - Right-aligns the text within each year indicator.</li>
-  </ul>
+  <li><code>body:</code> This selector targets the <code>&lt;body&gt;</code> element and defines styles for the entire page. It sets the font family to a sans-serif font and the text color to a specific shade of blue.</li>
 </ul>
 
 <ul>
-  <li><code>Table Wrap Styles (.table-wrap):</code></li>
-  <ul>
-    <li>Selects elements with the "table-wrap" class and applies the following styles:</li>
-    <li><code>padding: 0 0.75rem 1.5rem 0.75rem;</code> - Adds padding to the top (0), right (0.75rem), bottom (1.5rem), and left (0.75rem), creating space around the tables.</li>
-  </ul>
+  <li><code>h1:</code> This selector targets all <code>&lt;h1&gt;</code> elements and sets their maximum width, margin, and padding.</li>
 </ul>
 
 <ul>
-  <li><code>Table Styles (table):</code></li>
-  <ul>
-    <li>Selects <code>&lt;table&gt;</code> elements and applies the following styles:</li>
-    <li><code>border-collapse: collapse;</code> - Collapses the borders of table cells so that adjacent borders merge into a single border.</li>
-    <li><code>border: 0;</code> - Removes the default border on tables.</li>
-    <li><code>width: 100%;</code> - Sets the table width to 100% of its containing element.</li>
-    <li><code>position: relative;</code> - Sets the position to relative, allowing absolute positioning of elements inside the table.</li>
-    <li><code>margin-top: 3rem;</code> - Adds a top margin of 3rem, creating space between tables and the previous content.</li>
-  </ul>
+  <li><code>h1 .flex:</code> This selector targets elements with the class <code>"flex"</code> that are descendants of <code>&lt;h1&gt;</code> elements. It defines a flexbox container for these elements with a column-reverse flex direction and gap.</li>
 </ul>
 
 <ul>
-  <li><code>Table Caption Styles (table caption):</code></li>
-  <ul>
-    <li>Selects <code>&lt;caption&gt;</code> elements within tables and applies the following styles:</li>
-    <li><code>color: #356eaf;</code> - Sets the text color of captions to a blueish color (#356eaf).</li>
-    <li><code>font-size: 1.3em;</code> - Sets the font size to 1.3em for captions.</li>
-    <li><code>font-weight: normal;</code> - Sets the font weight to normal for captions.</li>
-    <li><code>position: absolute;</code> - Positions captions absolutely, allowing them to be placed above the table.</li>
-    <li><code>top: -2.25rem;</code> - Shifts the caption 2.25rem above the top of the table.</li>
-    <li><code>left: 0.5rem;</code> - Adds 0.5rem of left spacing to the caption.</li>
-  </ul>
+  <li><code>h1 .flex span:first-of-type:</code> This selector targets the first <code>&lt;span&gt;</code> element that is a child of elements with the class <code>"flex"</code> inside <code>&lt;h1&gt;</code>. It sets the font size for this element.</li>
 </ul>
+
+<ul>
+  <li><code>h1 .flex span:last-of-type:</code> This selector targets the last <code>&lt;span&gt;</code> element that is a child of elements with the class <code>"flex"</code> inside <code>&lt;h1&gt;</code>. It sets the font size for this element.</li>
+</ul>
+
+<ul>
+  <li><code>section:</code> This selector targets all <code>&lt;section&gt;</code> elements and sets their maximum width, margin, and adds a border.</li>
+</ul>
+
+<ul>
+  <li><code>#years:</code> This selector targets an element with the ID <code>"years,"</code> which is expected to be unique on the page. It defines styles for this element, including display as flex, justification, positioning, background color, and padding.</li>
+</ul>
+
+<ul>
+  <li><code>#years span[class]:</code> This selector targets <code>&lt;span&gt;</code> elements within the element with the ID <code>"years"</code> that have a <code>class</code> attribute. It sets font-weight, width, and text alignment for these elements.</li>
+</ul>
+
+<ul>
+  <li><code>.table-wrap:</code> This selector targets elements with the class <code>"table-wrap"</code> and adds padding to them.</li>
+</ul>
+
+<ul>
+  <li><code>table:</code> This selector targets all <code>&lt;table&gt;</code> elements and sets various styles for tables, including border-collapse, width, position, and margin.</li>
+</ul>
+
+<ul>
+  <li><code>table caption:</code> This selector targets <code>&lt;caption&gt;</code> elements within tables and sets styles for the table captions, including color, font size, font weight, and positioning.</li>
+</ul>
+
+<ul>
+  <li><code>tbody td:</code> This selector targets table data cells within the <code>&lt;tbody&gt;</code> section and sets their width and min/max width.</li>
+</ul>
+
+<ul>
+  <li><code>tbody th:</code> This selector targets table header cells within the <code>&lt;tbody&gt;</code> section and sets their width.</li>
+</ul>
+
+<ul>
+  <li><code>tr[class="total"]:</code> This selector targets table rows with a specific <code>class</code> attribute value <code>"total"</code> and adds a double border and font weight.</li>
+</ul>
+
+<ul>
+  <li><code>tr.total td:</code> This selector targets table data cells within rows with the class <code>"total"</code> and sets text alignment and padding.</li>
+</ul>
+
+<ul>
+  <li><code>tr.total td:nth-of-type(3):</code> This selector targets the third table data cell within rows with the class <code>"total"</code> and adds padding to the right.</li>
+</ul>
+
+<ul>
+  <li><code>tr.total:hover:</code> This selector targets rows with the class <code>"total"</code> when hovered over and changes their background color.</li>
+</ul>
+
+<ul>
+  <li><code>td.current:</code> This selector targets table data cells with the class <code>"current"</code> and sets their font style to italic.</li>
+</ul>
+
+<ul>
+  <li><code>tr.data:</code> This selector targets table rows with the class <code>"data"</code> and applies a background gradient.</li>
+</ul>
+
+<ul>
+  <li><code>tr.data th:</code> This selector targets table header cells within rows with the class <code>"data"</code> and sets text alignment, padding, and top padding.</li>
+</ul>
+
+<ul>
+  <li><code>tr.data th .
