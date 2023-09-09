@@ -1,5 +1,5 @@
-<ul>
-  <li><strong>DOCTYPE html</strong>: This declaration defines the document type and version of HTML being used, which is HTML5 in this case.</li>
+<code><h1>Index.html</h1></code>
+ 
   <li><strong>html lang="en"</strong>: The opening tag for the HTML document, specifying that the document is in English ("en"). The entire HTML content is contained within this element.</li>
   <li><strong>head</strong>: The head section of the document contains meta-information about the document and external resources. It doesn't display content on the web page itself.
     <ul>
