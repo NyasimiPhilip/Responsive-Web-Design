@@ -18,3 +18,56 @@
     </ul>
   </li>
 </ul>
+
+<code><h1>Styles.css</h1></code>
+<ul>
+  <li><strong>html and * Selectors:</strong></li>
+  <ul>
+    <li><code>box-sizing: border-box;</code>: These rules define the box-sizing property for the HTML element and all elements (including pseudo-elements like ::before and ::after) on the page. It sets the box-sizing to "border-box," which means that the width and height of elements include padding and borders, not just the content.</li>
+  </ul>
+  <li><strong>#piano Selector:</strong></li>
+  <ul>
+    <li><code>background-color: #00471b;</code>: Sets the background color of the piano container with the id "piano" to a dark green color.</li>
+    <li><code>width: 992px; height: 290px;</code>: Sets the width and height of the piano container.</li>
+    <li><code>margin: 80px auto;</code>: Centers the piano container horizontally in the viewport with a top margin of 80px.</li>
+    <li><code>padding: 90px 20px 0 20px;</code>: Sets the padding for the piano container, with different values for top, right, bottom, and left.</li>
+    <li><code>position: relative;</code>: Specifies the positioning context for child elements with position:absolute.</li>
+    <li><code>border-radius: 10px;</code>: Adds rounded corners to the piano container.</li>
+  </ul>
+  <li><strong>.keys Selector:</strong></li>
+  <ul>
+    <li><code>background-color: #040404;</code>: Sets the background color of the piano keys container to a dark gray color.</li>
+    <li><code>width: 949px; height: 180px;</code>: Sets the width and height of the piano keys container.</li>
+    <li><code>padding-left: 2px;</code>: Adds left padding to the keys container.</li>
+    <li><code>overflow: hidden;</code>: Hides any content that overflows the container.</li>
+  </ul>
+  <li><strong>.key Selector:</strong></li>
+  <ul>
+    <li><code>background-color: #ffffff;</code>: Sets the background color of individual piano white keys to white.</li>
+    <li><code>position: relative;</code>: Establishes a positioning context for child elements with position:absolute.</li>
+    <li><code>width: 41px; height: 175px;</code>: Sets the width and height of the white keys.</li>
+    <li><code>margin: 2px;</code>: Adds a margin around each white key.</li>
+    <li><code>float: left;</code>: Floats the white keys to the left, allowing them to appear side by side.</li>
+    <li><code>border-radius: 0 0 3px 3px;</code>: Adds rounded corners to the bottom of each white key.</li>
+  </ul>
+  <li><strong>.key.black--key::after Selector:</strong></li>
+  <ul>
+    <li><code>background-color: #1d1e22;</code>: Sets the background color of the black keys to a dark gray.</li>
+    <li><code>content: "";</code>: Generates an empty content box for the pseudo-element.</li>
+    <li><code>position: absolute;</code>: Positions the pseudo-element absolutely within its parent .key element.</li>
+    <li><code>left: -18px;</code>: Shifts the pseudo-element to the left to overlap with the white keys.</li>
+    <li><code>width: 32px; height: 100px;</code>: Sets the width and height of the black keys.</li>
+    <li><code>border-radius: 0 0 3px 3px;</code>: Adds rounded corners to the bottom of each black key.</li>
+  </ul>
+  <li><strong>.logo Selector:</strong></li>
+  <ul>
+    <li><code>width: 200px;</code>: Sets the width of the logo image to 200px.</li>
+    <li><code>position: absolute; top: 23px;</code>: Positions the logo absolutely within the piano container, with a top margin of 23px.</li>
+  </ul>
+  <li><strong>Media Queries:</strong></li>
+  <ul>
+    <li>There are two media queries defined:</li>
+    <li>The first one applies styles when the viewport width is less than or equal to 768px. It adjusts the width and size of the piano and logo to fit smaller screens.</li>
+    <li>The second one (currently empty) would apply styles for viewport widths between 769px and 1199px, but it doesn't contain any rules in the provided code.</li>
+  </ul>
+</ul>
